@@ -14,7 +14,7 @@ def get_llm(model_name : str = "openai/gpt-oss-20b", temperature : float = 0.5) 
 
 ### Researcher Agent 
 researcher_prompt = ChatPromptTemplate.from_messages([
-    {"role" : "System", "content" : """
+    {"role" : "system", "content" : """
 
         "You are a research agent. Give a blog topic and target audience, produce a clear, "
         "structured research outline. Include : \n"
