@@ -1,0 +1,12 @@
+langchain
+dotenv
+langchain-groq
+streamlit
+langchain-ollama
+langchain-community
+langgraph
+pypdf
+langchain-text-splitters
+langchain-chroma
+pydantic
+ipykernel
